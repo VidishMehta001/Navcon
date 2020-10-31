@@ -1,0 +1,52 @@
+{% extends "LoginDesign.html" %}
+{% load crispy_forms_tags %}
+{% load static %}
+{% block content %}
+
+<section class="whyUs-sec mainspace">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-4">
+                <div>
+                    <h3 class="h3" style="margin-top: 150px;"> Join us and start making an impact today</h3>
+                    <img style="width: 800px; height:300px;" src = "{% static 'assets/img/Volunteer.png' %}">
+                </div>
+            </div>
+            <div class="col-md-auto">
+                Variable width content
+            </div>
+            <div class="col col-md-4">
+                <div style="margin: 40px; margin-top: 180px;">
+                    <div class='bg_gray'>
+                    </div>
+                    <h2 class='h2'>Login Page</h2>
+                </div>
+                <div class="offset-1 col-sm-4">
+                <form method="POST">
+                    {% csrf_token %}
+                    {{form|crispy}}
+                    <input type="submit" class="btn btn-primary" style="margin-top: 40px;">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<style>
+    .bg {
+        background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+
+      /* Full height */
+      height: 100%;
+    
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+</style>
+
+{% endblock %}
+

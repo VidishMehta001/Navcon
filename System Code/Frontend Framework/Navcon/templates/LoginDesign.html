@@ -1,0 +1,160 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="shortcut icon" type="image/png" href="images/favicon-icon.png">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/animations.css' %}">
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style2.css' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+    <title>Navcon: Navigation & Guidance Control System for Visually Impaired</title>
+  </head>
+  <body>
+      <!-- Header-sec-start -->
+        <header>
+            <div class="header-sec-login">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                    <div class="col-auto d-block d-lg-none">
+                        <a href="" class="logo">
+                        <img src="{% static 'assets/img/NavconLogo.png' %}" alt="...">
+                        </a>
+                    </div>
+                    <div class="col">
+                        <div class="navbar-sec">
+                        <div class="navtggle">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                        <div class="navCOl">
+                            <div class="navlink">
+                            <ul>
+                                <li>
+                                <a href="" class="at-drop-down">Navcon Models</a> 
+                                <ul class="sub-links">
+                                    <li>
+                                    <a href="">Object Detection Pipeline</a>
+                                    </li>
+                                    <li>
+                                    <a href="">Deep Q Learning</a>
+                                    </li>
+                                    <li>
+                                    <a href="">VSLAM and ROS Integration</a>
+                                    </li>
+                                </ul>
+                                </li>
+                                <li class="collogo">
+                                <a href="">
+                                    <div class="logo-sec d-none d-lg-block">
+                                    <img src="{% static 'assets/img/NavconLogo.png' %}" alt="Navcon Logo">
+                                    </div>
+                                </a>
+                                </li>
+                                <li>
+                                <a href="" class="at-drop-down">Volunteer with us :)</a>
+                                <ul class="sub-links">
+                                    <li>
+                                    <a href='{% url "login" %}'>Login</a>
+                                    </li>
+                                    <li>
+                                    <a href='{% url "signup" %}'>Signup with us :)</a>
+                                    </li>
+                                </ul>
+                                </li>
+                                <li><a href='{% url "demo" %}'>Live Demo</a></li>
+                                <li><a href=" {% url 'contact' %}">Contact us</a></li>
+                            </ul>
+                            </div>
+                        </div>
+                        </div>
+                    </div>
+                    </div>
+            </div>
+            </div>
+                
+        </header>
+
+    {% block content %}
+
+    {% endblock %}
+    <footer>
+        <div class="footer-sec bg_gray mainspace">
+          <div class="container">
+            <div class="row">
+              <div class="col-6 col-lg-3">
+                <div class="footerInfo">
+                  <h3>Quick links</h3>
+                  <ul class="footerlink">
+                    <li><a href="">Navcon Models</a></li>
+                    <li><a href="" class="sub-link">Object Detection Models</a></li>
+                    <li><a href="" class="sub-link">Deep Q Learning Model</a></li>
+                    <li><a href="" class="sub-link">VSLAM and ROS Integration</a></li>
+                  </ul>
+                  <ul class="footerlink">
+                    <li><a href="">Volunteer With Us :)</a></li>
+                    <li><a href="" class="sub-link">Object Detection Mapping</a></li>
+                    <li><a href="" class="sub-link">Indoor Location Mapping</a></li>
+                  </ul>
+                  <ul class="footerlink">
+                    <li><a href="">Live Demo</a></li>
+                  </ul>
+                  <ul class="footerlink">
+                    <li><a href="">Contact us</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-6 col-lg-3">
+                <div class="footerInfo">
+                  <h3>Legal</h3>
+                  <ul class="footerlink">
+                    <li><a href="" target="_blank">Terms & Conditions</a></li>
+                    <li><a href="" target="_blank">Privacy policy</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footerInfo">
+                  <h3>Contact Us</h3>
+                  <ul class="address-detail">
+                    <li>
+                      <span><img src="{% static 'assets/img/address.png' %}" style = "width: 25px;" alt=""></span>
+                      29 Heng Mui Keng Terrace <br>
+                      NUS ISS Building <br>
+                      Singapore 119620
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-sm-6 col-lg-3">
+                <div class="footerInfo text-right">
+                  <ul class="socialIcon">
+                    <li><a href="" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                  </ul>
+                  <p style="color: white;">Copyright © 2020. All rights reserved.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- Footer-sec-close -->
+    
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script> -->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        <script src="{% static 'js/swiper.min.js' %}"></script>
+        <script src="{% static 'js/css3-animate-it.js' %}"></script>
+        <script src="{% static 'js/custom.js' %}"></script>
+        <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+        <script src="https://cdn.anychart.com/releases/v8/js/anychart-tag-cloud.min.js"></script>
+</body>
+</html>

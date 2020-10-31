@@ -1,0 +1,37 @@
+{% extends "LoginDesign.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+
+<section class="whyUs-sec mainspace">
+    <div class="container">
+        <div class="row justify-content-md-center">
+            <div class="col col-lg-4">
+                <div>
+                    <h3 class="h3" style="margin-top: 150px;"> Join us and start making an impact today</h3>
+                    <img style="width: 800px; height:300px;" src = "{% static 'assets/img/Volunteer.png' %}">
+                </div>
+            </div>
+
+            <div class="col col-lg-7">
+                <div style="margin: 40px; margin-top: 120px;">
+                    <div class='bg_gray'>
+                    </div>
+                    <h2 class='h2 offset-2'>Signup Page</h2>
+                </div>
+                <div class="offset-2">
+                <form method="POST" style="width:500px;">
+                    {% csrf_token %}
+                    {{form|crispy}}
+                    <input type="submit" class="btn btn-primary" style="margin-top: 40px;">
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+{% endblock %}
+
+
+

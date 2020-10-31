@@ -1,0 +1,91 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+
+    <!-- Banner-sec-start -->
+        <section>
+          <div class="banner-sec animatedParent animateOnce" data-sequence="500">
+            <video autoplay loop muted poster="" preload="auto">
+              <source src="{% static 'assets/video/video.mp4' %}" type="video/mp4">
+                Your browser does not support HTML5 video.
+              </video>
+            <div class="container">
+             <div class="bannerInfo">
+               <h2 class="animated growIn slower" data-id="1"><span class="text_darkYllo">NEXT GENERATION </span><span class="text_darkYllo">NAVIGATION</span> <span class="text_darkYllo">AND GUIDANCE CONTROL SYSTEM</span> FOR OUR VISUALLY IMPAIRED FRIENDS</h2>
+               <p class="animated growIn slowest" style="font-weight: bold; color: whitesmoke" data-id="2">Combining state of the art object detection neural nets and deep Q learning models with Virtual Localisation and Mapping and Robotic Operating system, <br> we strive to bring visual independence for our visually impaired friends</p>
+               <button id="covid-alert" class="btn btn-primary"><a href="{% url 'demo' %}">Click for Live Demo!</a></button>
+             </div>
+            </div>
+          </div>
+        </section>
+    <!-- Banner-sec-Close -->
+
+
+    <!-- whyUs-sec-start -->
+    <section>
+      <div class="whyUs-sec mainspace animatedParent animateOnce" >
+        <div class="container">
+          <div class="titleCol text-center animated fadeInDownShort">
+            <h2 class="text_brown">WHO ARE WE</h2>
+            <p>We are group of young Artificial Iintelligence Specialist who want to leverage the power of AI and technology to bring good to society.</p>
+            <p>Our Navcon suite of products helps our visually impaired friends in both indoor and outdoor navigation, text recognition as well as environment sensing.</p>
+          </div>
+          <div class="whyUs-inner animatedParent animateOnce" data-sequence="100">
+            <div class="row align-items-center">
+              <div class="col-auto animated fadeInLeftShort" data-id="1">
+                <div class="col-img ">
+                  <div class="main-cir">
+                    <span class="round cir1"></span>
+                    <span class="round cir2"></span>
+                    <span class="round cir3"></span>
+                    <img src="{% static 'assets/img/hardware.png' %}" alt="...">
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="content-sec">
+                  <div class="contentCol spaceBottom fadeInUp animated" data-id="2">
+                    <div class="contentCol-img">
+                    <span class="circleArrow circleArrowDown"></span>
+                      <span class="halfCircle"></span>
+                        <div class="imgbgcol">
+                        <img src="{% static 'assets/img/Navigation.png' %}" alt="...">
+                      </div>
+                    </div>
+                    <p><span class="text_darkYllo">Indoor and Outdoor Navigation</span>Using a combination of object detection neural nets, reinforcement learning, virtual simultaneous localisation and mapping and robotic operating system, Navcon strives to provide navigation guidance in every location.</p>
+                  </div>
+                  <div class="contentCol spaceCOl space-left fadeInUp animated" data-id="3">
+                    <div class="contentCol-img">
+                    <span class="circleArrow circleArrowCenter"></span>
+                      <span class="halfCircle"></span>
+                        <div class="imgbgcol">
+                        <img src="{% static 'assets/img/hardware_2.png' %}" alt="...">
+                      </div>
+                    </div>
+                    <p><span class="text_darkYllo">Simple Hardware</span>Navcon employs a small but powerful Jetson Nano development kit which houses a 128 core Maxwell GPU for processing the multiple neural networks in parallel. Additionally, Navcon is packaged with a customised user interface as well as Jabra headset.</p>
+                  </div>
+                  <div class="contentCol spaceBottom animated fadeInUp" data-id="4">
+                    <div class="contentCol-img">
+                    <span class="circleArrow circleArrowTop"></span>
+                      <span class="halfCircle"></span>
+                        <div class="imgbgcol">
+                        <img src="{% static 'assets/img/Automation_Community.png' %}" alt="...">
+                      </div>
+                    </div>
+                    <p><span class="text_darkYllo">Automation with Community Support</span>Navcon suite of products support an automated data ingestion pipeline that relises on community support and volunteer organisations to map objects and indoor locations in our pipeline.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- whyUs-sec-start -->
+
+  <!-- Upadate-sec-start -->
+  <!-- Upadate-sec-close -->
+
+  <!-- Footer-sec-start -->
+
+{% endblock %}
