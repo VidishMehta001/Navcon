@@ -1,4 +1,30 @@
-# How to build & run a standalone application
+
+## SECTION 1 : Indoor Navigation 
+
+### Monocular Indoor Navigation - Single Instance Demonstration
+
+Following video provides the indoor navigation for monocular camera raw feed
+
+[Raw Feed](https://www.youtube.com/watch?v=sht2fJMM70s&feature=youtu.be)
+
+[RVIZ](https://youtu.be/VTLj2SsOUTY)
+
+[VSLAM](https://youtu.be/RPuE93142bE)
+
+
+
+Following video provides the indoor navigation for stereo camera raw feed
+
+[Right Eye](https://youtu.be/paSayvZxmWQ)
+
+[Left Eye](https://youtu.be/paSayvZxmWQ)
+
+[RVIZ](https://youtu.be/qMxSWc_pv7g)
+
+[VSLAM](https://youtu.be/1g-4wYyUqo0)
+
+---
+## Section 2: How to build & run a standalone application
 
 ## Prerequisite
 
@@ -288,7 +314,7 @@ catkin_make \
     -DBOW_FRAMEWORK=DBoW2
 ```
 
-# Start Nevigation
+# Start Navigation
 ```bash
 #Start ROS
 roscore
