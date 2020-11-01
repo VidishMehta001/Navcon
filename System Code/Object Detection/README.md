@@ -2,9 +2,9 @@
 ## SECTION 1 : Object Detection Model
 ## Navcon - Navigation and Guidance Control System for Visually Impaired
 
-![alt text](https://github.com/vid1994/Navcon/blob/master/System%20Code/Outdoor%20Navigation/Deep%20Q%20Agent.PNG)
-
 Object Detection Pipeline is a colab code using GPU resoureces for training SSD Mobilenet. Once model is trained, Object Detection Testing can be used for model validation. 
+
+![alt text](https://github.com/vid1994/Navcon/blob/master/System%20Code/Object%20Detection/ObjectDetectionResults.PNG)
 
 ---
 ## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
