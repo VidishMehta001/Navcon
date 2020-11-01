@@ -6,3 +6,25 @@ Cheatsheet: https://github.com/ros/cheatsheet/releases/
 
 openvslam 
 point update on viwer : https://github.com/xdspacelab/openvslam/blob/master/viewer/public/js/PointCloud.js
+
+Indoor Navigation
+
+[1] OpenCV Epipolar Geometry  [https://docs.opencv.org/3.4/da/de9/tutorial_py_epipolar_geometry.html]
+
+[2] ROS Concept [http://wiki.ros.org/ROS/Concepts]
+
+[3] ROS Stereo Image Processing [http://wiki.ros.org/stereo_image_proc]
+
+[4] ROS Navigation Stack [http://wiki.ros.org/navigation/Tutorials/RobotSetup]
+
+[5] Octo Map Server [http://wiki.ros.org/octomap_server?distro=noetic]
+
+[6] Octo Mapping [https://octomap.github.io/] 
+
+[7] Rviz on Neviation [http://wiki.ros.org/navigation/Tutorials/Using%20rviz%20with%20the%20Navigation%20Stack]
+
+[8] ROS Costmap [http://wiki.ros.org/costmap_2d]
+
+[9] ROS Odometry [http://wiki.ros.org/navigation/Tutorials/RobotSetup/Odom]
+
+[10] OpenVSLAM [https://openvslam.readthedocs.io/en/master/installation.html]
