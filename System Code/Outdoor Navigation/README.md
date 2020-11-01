@@ -2,8 +2,7 @@
 ## SECTION 1 : Deep Q Learning Training Instance
 ## Navcon - Navigation and Guidance Control System for Visually Impaired
 
-<img src="System Code\Outdoor Navigation\Deep Q Agent.PNG"
-     style="float: left; margin-right: 0px;" />
+![alt text](https://github.com/vid1994/Navcon/blob/master/System%20Code/Outdoor%20Navigation/Deep%20Q%20Agent.PNG)
 
 ---
 ## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
