@@ -300,7 +300,7 @@ sudo apt-get install rviz
 
 Install OctoMap,Image Pipeline,Path Planner,Move base
 ```bash
-git clone https://e0508624@dev.azure.com/e0508624/Navcon/_git/Navcon
+git clone git@github.com:vid1994/Navcon.git
 ```
 
 Build ROS
@@ -341,7 +341,7 @@ rosrun openvslam run_localization -v /home/zy2020/openvslam/build/orb_vocab/orb_
 #Launch Octomap suite
 roslaunch octomap_server octomap_mapping.launch 
 
-#Launch nevigation
+#Launch navigation
 roslaunch my_robot_configuration.launch
 roslaunch move_base.launch
 
