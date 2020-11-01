@@ -2,20 +2,15 @@
 ## SECTION 1 : PROJECT TITLE
 ## Navcon - Navigation and Guidance Control System for Visually Impaired
 
-<img src="System Code\static\assets\img\portfolio\sgp2.jpg"
-     style="float: left; margin-right: 0px;" />
-
+![alt text](https://github.com/vid1994/Navcon/blob/master/System%20Code/Object%20Detection/Images/ObjectDetectionResults.PNG)
 
 ---
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 According to the global statistics of the World Health Organization (“WHO”), 188.5 million out of 7.8 billion people have mild vision impairment, 217 million people have moderate to severe vision impairment, and 36 million people are visually impaired. Evidently, vision impairment has a significant impact on the functioning of daily activities, including the ability to navigate and recognize the environment independently. Fortunately, apart from medical advancements, technological solutions have enabled the possibility of harnessing assistive tools to improve Visually Impaired People’s (VIP) quality of life and to offer them better integration into society. Based on existing literature, we recognise that assistive devices for VIP are a boon to their functional limitations. These devices help to support daily traveling and have high potential to improve VIP’s social inclusion. 
 
-Indeed, according to the 2018 Q4 report published by the Singapore Tourism Board, the tourism sector had achieved record highs in International Visitor Arrivals and Tourism receipts for the third consecutive year. With the exponential increase in tourists to Singapore, the primary challenge of making full use of their trips while taking into consideration their limited time here is enormous. Based on our research, an average tourist usually takes up to 12 hours to plan their trips. Currently, there exists a sizable market gap in the tourism industry with modern travel tech players like Traveloka and Agoda provide limited active recommendations whilst the more traditional travel agencies tend to have a strict adherence to schedule and lack the much-desired flexibility. From our initial survey, we discovered a strong demand for a middle ground that combines the flexibility of planning your own trip yet provides active recommendations on places to visit. 
+A market opportunity presented itself to us when we discovered that there has been a dearth of an all-in-one solution for VIP’s at this juncture - one which promises to bring together all the features (such as text-to-read, object detection and  navigation) in a single product to empower the VIP. Before we embark on our product/strategy creation, our team conducted an extensive background research on VIP, their families and friends, as well as caregivers and professionals in the ophthalmology field to understand some of the most desired characteristics of an assistive device. We have unravelled that family and caregivers of VIP’s require the product to be safe to use, have emergency warning systems to alert the owners through loaded user profile and provide timely information and warnings about the surrounding environment. 
 
-These thought-provoking discoveries led our team to explore an efficient recommendation system which allows tourists to effectively plan their trip in Singapore. Leveraging on our core competencies in intelligent reasoning, cognitive and optimisation systems, we have developed a dynamic itinerary planner which optimises both the hotel location as well as daily itinerary for our end users, thereby relieving them from the painstaking planning process. Our simple and intuitive front-end user interface hosts a dropdown form for tourists to input their preferences for common categories of attractions in less than 10 seconds. Linear programming optimization solver optimizes the attractions based on earlier defined user preferences and curates a list of attractions for our end users. With attractions selected, our end users can now book their recommended hotel, obtained by minimizing the distance to each of the attractions. At the heart of our itinerary planning process is a hybrid reasoning engine that combines a greedy best first search tree with the permutations of genetic algorithms. This computationally intensive task is executed asynchronously. All these with an aim of allowing our end users to relax and to receive a specially curated and customised itinerary sent directly for their use. 
-
-But wait, theres more. We do not just stop at planning as we understand tourists desire a dynamic planner that can plan on the go. As the founder and CEO of Amazon, Jeff Bezos puts it “Any plan won't survive its first encounter with reality. The reality will always be different”. Our humanoid telebot accompanies our tourists throughout their trip in Singapore and dynamically plans through any changes in the schedule or preference. Our aim at Trip@Us is to be your friendly trip recommender system that follows you throughout your journey.
-
+Armed with extensive market research, our team of 4 dynamic and dedicated solutionists voyaged on a journey to create an intelligent navigation and guidance control system to empower VIP and to assist in their daily mobility needs. As elaborated in the subsequently, we have developed a dynamic navigation system that recognizes objects and avoids collisions with path finding functionalities in both outdoor and indoor environment. Additionally, with our users in mind, we created a simple and intuitive front-end user interface with audio instructions provided throughout. This system uses a combination of the Support Vector Machine (SVM) and Principal Component Analysis (PCA) to load users profile using facial recognition to alert our VIPs family or caregiver during emergency.
 
 ---
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
@@ -32,20 +27,18 @@ But wait, theres more. We do not just stop at planning as we understand tourists
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 
-[Project Video](https://youtu.be/HRs56EQ9CAA)
+[Project Video](https://youtu.be/HLQd2nXdwKc)
 
 
 ---
 ## SECTION 5 : PROJECT REPORT / PAPER
 
-`<Github File Link>` : https://github.com/vid1994/TripAtUs/blob/master/Project%20Report/Trip%40Us%20Final%20Project%20Report.pdf
+`<Github File Link>` : https://github.com/vid1994/Navcon/blob/master/Project%20Report/NavCon%20Project%20Final%20Report.pdf
 
 ---
-## SECTION 7 : MISCELLANEOUS
+## SECTION 6 : System Demo
 
 ### Demo Video
-* Singapore attractions data scraped from data.sg (Govt Data Source File)
-* Includes basic information and reviews, which were subsequently used in our system
-### Volunteer Video
-* Singapore Hotel data scraped from data.sg (Govt Data Source File)
-* Includes basic information and reviews, which were subsequently used in our system
+
+[Navcon Demo] (https://youtu.be/XwRWvKAmZnk)
+
