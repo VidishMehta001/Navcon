@@ -1,0 +1,8 @@
+ROS
+Nevigation : http://wiki.ros.org/navigation/Tutorials/Navigation%20Tuning%20Guide
+Visualizer : http://wiki.ros.org/rviz/UserGuide
+Global path planner: http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS
+Cheatsheet: https://github.com/ros/cheatsheet/releases/
+
+openvslam 
+point update on viwer : https://github.com/xdspacelab/openvslam/blob/master/viewer/public/js/PointCloud.js

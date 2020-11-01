@@ -1,0 +1,11 @@
+<launch>
+  <!--<node pkg="openvslam" type="run_localization" name="run_localization" output="screen">
+    <param name="v" value="/home/zy2020/openvslam/build/orb_vocab/orb_vocab.dbow2" />
+    <param name="c" value="/home/zy2020/openvslam/build/aist_living_lab_1/config.yaml" />
+    <param name="p" value="/home/zy2020/openvslam/build/map.msg" />
+ </node>-->
+<node pkg="image_transport" type="republish" name="image_transport" output="screen">
+    <param name="raw in:" value="/video/image_raw" />
+    <param name="raw out:" value="/camera/image_raw" />
+ </node>
+</launch> 
