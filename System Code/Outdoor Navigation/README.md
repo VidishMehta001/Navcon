@@ -23,4 +23,5 @@ Following video is an example used for training the Deep Q Agent. Episodes 1 and
 ### DQN Training Video - Trained Model On Episode 6
 
 [Project Video](https://youtu.be/dszojOlVKVg)
+
 ---
