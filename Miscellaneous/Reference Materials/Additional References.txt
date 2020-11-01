@@ -1,0 +1,15 @@
+Document References:
+
+Topis : Reinforcement Learning
+
+1. Links
+	https://medium.com/@SmartLabAI/reinforcement-learning-algorithms-an-intuitive-overview-904e2dff5bbc
+	https://openai.com/blog/openai-five/
+	https://spinningup.openai.com/en/latest/index.html
+
+Code References:
+
+1. World Model and Car racing
+	https://github.com/hardmaru/WorldModelsExperiments
+	https://arxiv.org/pdf/1803.10122.pdf
+
