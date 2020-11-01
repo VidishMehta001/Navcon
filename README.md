@@ -20,7 +20,7 @@ Armed with extensive market research, our team of 4 dynamic and dedicated soluti
 | Mehta Vidish Pranav | A0213523U  | Project Lead, Hardware Setup, Developed Object Detection, Deep Q Learning Reinforcement Agent, PCA+SVM Facial Recognition System, Core Django Frontend Framework, Optical Character Reccognition and auto speech synthesizers, Application Testing. Worked on mid project presentation, final project presentation and video and project documentations  |
 | Anandan Natarajan | A0213514U  | Documentation (Project Proposal), Mid and Final project presentation and report, Hardware Comparison, Development environment setup, outdoor navigation - object detection, tagging and TF record generation, Application testing|
 | Veda Nagavalli Yogeesh| A0213556H   | Documentation (Project Proposal), Mid and Final project presentation and report, Image Preparing (sourcing, cleaning, tagging and TF Record generation), Image Caption, Face Reccognition, Application Testing |
-| Zhang Yu | A0213498X  | Documentation (Project Proposal), Mid and Final project presentation and report, Indoor Navigation and design, development and testing |
+| Zhang Yu | A0213498X  | Documentation (Project Proposal), Mid and Final project presentation and report, Indoor Navigation (ROS,VSLAM) design, development and testing |
 
 
 ---
