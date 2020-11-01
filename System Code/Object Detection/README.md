@@ -7,9 +7,9 @@ Object Detection Pipeline is a colab code using GPU resoureces for training SSD 
 ![alt text](https://github.com/vid1994/Navcon/blob/master/System%20Code/Object%20Detection/ObjectDetectionResults.PNG)
 
 ---
-## SECTION 2 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
+## SECTION 2 : Image Detection & Tensorboard Results - Single Instance
 
-### DQN Training Video - Single Instance Demonstration
+### Object Detection - Power of SSD Mobilenet V2 Batch Normalisation
 
 Following video is an example used for training the Deep Q Agent. Episodes 1 and Episodes 6 are used below for comparitive analysis. 
 
